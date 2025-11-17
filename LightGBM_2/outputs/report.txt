@@ -1,0 +1,8 @@
+=== LightGBM Ventilation Prediction Report ===
+Rows=17540 | Features=133 | Targets=['PM25_t_plus_1', 'PM25_t_plus_2', 'PM25_t_plus_3']
+[train] PM25_t_plus_1=1.528, PM25_t_plus_2=1.914, PM25_t_plus_3=2.457, macro=1.967
+[valid] PM25_t_plus_1=2.577, PM25_t_plus_2=3.312, PM25_t_plus_3=3.963, macro=3.284
+[test] PM25_t_plus_1=2.040, PM25_t_plus_2=2.713, PM25_t_plus_3=3.261, macro=2.672
+
+Ventilation threshold: PM2.5 ≤ 35.0 µg/m³
+Artifacts: outputs/metrics.csv, outputs/predictions.csv, outputs/featimp_*.png
