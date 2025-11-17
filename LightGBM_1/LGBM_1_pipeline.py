@@ -11,9 +11,9 @@ KMA_API_KEY = "seq0BXT_R2GqtAV0__dh7Q"
 SEOUL_TRAFFIC_API_KEY = "5479676464736f6b313035586b706147" 
 
 MODEL_PATHS = {
-    'PM25_t_plus_1': './model/LightGBM_1/model_PM25_t_plus_1.pkl',
-    'PM25_t_plus_2': './model/LightGBM_1/model_PM25_t_plus_2.pkl',
-    'PM25_t_plus_3': './model/LightGBM_1/model_PM25_t_plus_3.pkl'
+    'PM25_t_plus_1': './LightGBM_1/model_PM25_t_plus_1.pkl',
+    'PM25_t_plus_2': './LightGBM_1/model_PM25_t_plus_2.pkl',
+    'PM25_t_plus_3': './LightGBM_1/model_PM25_t_plus_3.pkl'
 }
 
 KEY_MAP_AIRKOREA = {

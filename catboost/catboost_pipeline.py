@@ -14,7 +14,7 @@ AIRKOREA_API_KEY = "72634d516d736f6b38306f7a6c4e6d"
 KMA_API_KEY = "seq0BXT_R2GqtAV0__dh7Q" 
 SEOUL_TRAFFIC_API_KEY = "5479676464736f6b313035586b706147" 
 
-ARTIFACT_DIR = './model/CatBoost/artifacts/' 
+ARTIFACT_DIR = './CatBoost/artifacts/' 
 MODELS_PATH = os.path.join(ARTIFACT_DIR, "models_catboost.pkl") 
 IMPUTER_PATH = os.path.join(ARTIFACT_DIR, "imputer_median.pkl")
 FEATURES_PATH = os.path.join(ARTIFACT_DIR, "feature_cols.pkl")
